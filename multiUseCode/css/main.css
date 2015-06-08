@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+	font-size: large;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+@media (max-width: 768px) {
+	html, body {
+		font-size: medium;
+	}
+}
+
+#contentSection {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

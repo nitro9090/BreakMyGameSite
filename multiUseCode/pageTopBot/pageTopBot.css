@@ -1,0 +1,96 @@
+/* code for the header and footer for the site*/
+
+/* required for sticky footer*/
+html, body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin-bottom: -70px; /*height of the header + 2 * margin of #footerHr tag*/
+	padding: 60px 0 60px; /*the 50px is for the header hgt, 60px for footer hgt*/
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 60px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	#wrapper {
+		margin-bottom: -140px; /*height of the header + 2 * margin of #footerHr tag*/
+		padding: 60px 0 130px 0; /*the 60px is for the header hgt, 100px for footer hgt*/
+	}
+	#footer {
+		height: 120px;
+	}
+}
+
+/* end sticky footer requirements*/
+
+/* header CSS */
+#navbar{
+	font-size: x-large;
+}
+
+#logo {
+	float: left;
+	overflow: hidden;
+	height: 60px;
+	width: auto;
+}
+
+#navBarPageTop {
+	padding-top: 7px;
+}
+
+#navBarPageTop > li >ul >li >a {
+	font-size: large;
+}
+
+@media (max-width: 992px) {
+	#navbar{
+	font-size: large;
+	}
+}
+
+/* footer CSS */
+#footerHr {
+	margin: 5px;
+}
+
+#socialLinks{
+	display:block;
+	width: auto;
+	text-align: center;
+}
+
+#facebookButton{
+	display: inline-block;
+	margin: 14px 10px 0 0;
+}
+
+#meetupButton {
+	display: inline-block;
+	margin: 7px 0px 0 10px;
+}
+#copyrightSection {
+	text-align: right;
+}
+
+@media (max-width: 992px) {
+	#socialLinks{
+	text-align: left;
+	margin: 0px 5px 0 0;
+	}
+	#copyrightSection {
+	text-align: left;
+	margin: 0px 5px 0 0;
+	}
+}
