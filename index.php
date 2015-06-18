@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap-theme.min.css">
 
          <!--  CSS applied to every page -->
-        <link rel="stylesheet" href="/multiUseCode/css/main.css">  
+        <link rel="stylesheet" href="/multiUseCode/css/main.css"> 
         
         <!--  CSS for page header and footer -->
         <link rel="stylesheet" href="/multiUseCode/pageTopBot/pageTopBot.css">   
@@ -40,7 +40,7 @@
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-                <img src="/img/BMG-Logo-v2-mainPage.jpg">
+                <!--  <img src="/img/BMG-Logo-v2-mainPage.jpg">-->
                 <h1>Welcome to Break My Game</h1>
                 <p id="aboutBMG">
                     We are an organization for board game designers and playtesters.  We meet up every third Thursday
@@ -51,8 +51,7 @@
                     <br />
                     <br />
 
-                    While this site continues to develop you can be kept up to date by visiting our
-                    <a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/meetup page">Meetup</a> page.
+                    Note, this site is still developing. So, please don't be surprised if all of the links do not work.
                 </p>
             </div>
             <!-- End main content section -->
@@ -60,6 +59,7 @@
         <?php
         include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageBottom.php");
         ?>
+        
         <!--  javascript section -->
 
         <!-- loading jquery, bootstrap and modernizr javascript files (do not change unless you know what you are doing) -->

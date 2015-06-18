@@ -1,6 +1,5 @@
 #formDiv {
 	margin: 0 auto 0 auto;
-	border: #00FFFF solid 1px;
 	max-width: 900px;
 	text-align:left;
 }
@@ -16,7 +15,7 @@
 
 .inputBlock {
 	margin: 3px 0 3px 0;
-	border:
+	border: 1px solid lightblue;
 }
 
 .labels {
@@ -32,7 +31,7 @@
 	vertical-align: middle;
 	left: 0px;
 	max-width: 590px;
-	background: GhostWhite;
+	
 }
 
 #gameName {
@@ -51,10 +50,21 @@
 }
 
 #enjoyGame {
+	vertical-align: middle;
+	text-align: middle;
 }
 
 #normallyPlayExpl {
 	display:inline-block;
+	vertical-align: middle;
+}
+
+#submitButton {
+	text-align: center;
+}
+
+#status {
+	text-align: center;
 }
 
 .bigTextArea {

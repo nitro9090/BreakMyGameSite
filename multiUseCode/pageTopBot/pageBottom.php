@@ -14,9 +14,8 @@
 							data-layout="button"></div>
 					</div>
 					<div id="meetupButton">
-						<a
-							href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">
-							<img src="/img/meetup_hgt_35px.jpg">
+						<a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">
+							<img src="/img/meetup_hgt_35px.jpg" alt="Break My Game Logo">
 						</a>
 					</div>
 				</div>

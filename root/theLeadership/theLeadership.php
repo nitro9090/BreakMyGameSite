@@ -26,8 +26,8 @@
         <!--  CSS for page header and footer -->
         <link rel="stylesheet" href="/multiUseCode/pageTopBot/pageTopBot.css">   
         
-        <!-- unique CSS for this page EDIT MY LINK! -->
-        <link rel="stylesheet" href="template.css">
+        <!-- unique CSS for this page -->
+        <link rel="stylesheet" href="theLeadership.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -40,9 +40,22 @@
             include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageTop.php");
             ?>
             <!-- main content section -->
-            <div class="container text-center" >
+             <div class="container text-center" >
                 <h2>The Leadership</h2>
-                
+                <div class="leaderInfoblock text-left">
+                	<div class="col-md-2">
+                	   <img class="leaderImage" src="/img/BMG-Logo-v2-mainPage.jpg">
+                	</div>
+                	<div class="col-md-10">
+                	   <h3 class="leaderName">Daniel Palmer</h3>
+                	   <h4 class="leaderPosition"> Lord and Master of Breaking Games</h4>
+                	   <p>Not only is he the original organizer of Break My Game, but he is also an amazing guy.
+                	   Having put tons of blood, sweat and tears in to improving this organization and making it
+                	   a force to be recommended with he organizes events, convention booths, does advertising and 
+                	   even finds time to work on comic books with 
+                	   <a href="https://www.facebook.com/RavenWarrenStudios">Raven Warren Studios</a></p>
+                	</div>
+                </div>
             </div>
             <!-- End main content section -->
         </div>
@@ -74,8 +87,8 @@
         <!-- javascript applied to the page header and footer --> 
         <script src="/multiUseCode/pageTopBot/pageTopBot.js"></script>
         
-        <!-- unique javascript for this page EDIT MY LINK! --> 
-        <script src="/root/template/template.js"></script>
+        <!-- unique javascript for this page --> 
+        <script src="/root/template/theLeadership.js"></script>
         <!-- end javascript section -->
     </body>
 </html>
