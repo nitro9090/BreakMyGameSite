@@ -8,22 +8,13 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/metadata.php");
-            ?>
-        
         <title>Break My Game - Designer Standards</title>
         <meta name="description" content="">
         
-        <!-- Loading the BootStrap CSS files (do not change unless you know what you are doing) -->
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap-theme.min.css">
-
-        <!--  CSS applied to every page -->
-        <link rel="stylesheet" href="/multiUseCode/css/main.css">   
-        
-        <!--  CSS for page header and footer -->
-        <link rel="stylesheet" href="/multiUseCode/pageTopBot/pageTopBot.css">   
+		<!-- This include adds the basic header lines needed to run the basic page -->
+        <?php
+            include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
+        ?>
         
         <!-- unique CSS for this page -->
         <link rel="stylesheet" href="designerStandards.css">
@@ -36,7 +27,7 @@
         <div id="wrapper">
             <!-- Inserts header html into the page -->
             <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageTop.php");
+            	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
             <div class="container text-center" >
@@ -92,30 +83,14 @@
         
         <!-- inserts footer html into the page -->
         <?php
-        include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageBottom.php");
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         <!--  javascript section -->
 
-        <!-- loading jquery, bootstrap and modernizr javascript files (do not change unless you know what you are doing) -->
-        <script src="/multiUseCode/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="/multiUseCode/js/vendor/bootstrap.min.js"></script>
-        <script src="/multiUseCode/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="/js/vendor/bootstrap.min.js"></script>
-        
-        <!-- Loading jQuery (needed for twitter bootstrap) -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-			window.jQuery || document.write('<script src="multiUseCode/js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-
-        <!-- javascript plugins applied to every page-->   
-        <script src="/multiUseCode/js/plugins.js"></script>
-        
-        <!-- javascript applied to every page -->
-        <script src="/multiUseCode/js/main.js"></script> 
-        
-        <!-- javascript applied to the page header and footer --> 
-        <script src="/multiUseCode/pageTopBot/pageTopBot.js"></script>
+       <!-- adds in all of the javascript code required to run a basic page -->
+        <?php
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
+        ?>
         
         <!-- unique javascript for this page --> 
         <script src="/root/template/designerStandards.js"></script>

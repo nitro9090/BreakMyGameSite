@@ -8,22 +8,14 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-         <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/metadata.php");
-            ?>
         
         <title>Break My Game</title>
         <meta name="description" content="">
 
-        <!-- Loading the BootStrap CSS files (do not change unless you know what you are doing) -->
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap-theme.min.css">
-
-         <!--  CSS applied to every page -->
-        <link rel="stylesheet" href="/multiUseCode/css/main.css"> 
-        
-        <!--  CSS for page header and footer -->
-        <link rel="stylesheet" href="/multiUseCode/pageTopBot/pageTopBot.css">   
+        <!-- This include adds the basic header lines needed to run the basic page -->
+        <?php
+            include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
+        ?>
         
         <!-- unique CSS for this page -->
         <link rel="stylesheet" href="/index.css">
@@ -36,14 +28,14 @@
         <div id="wrapper">
             <!-- Inserts header html into the page -->
             <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageTop.php");
+            	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
             <div class="container text-center" >
                 <!--  <img src="/img/BMG-Logo-v2-mainPage.jpg">-->
                 <h1>Welcome to Break My Game</h1>
                 <p id="aboutBMG">
-                    We are an organization for board game designers and playtesters.  We meet up every third Thursday
+                    We are an organization for board game designers and playtesters.  We meet up every third Sunday
                     of the month to playtest unpublished board games at <a href="http://www.theboardandbrew.com/">The Board and
                     Brew</a> in College Park MD, as well as meet up at various local conventions.  We are always looking for new
                     playtesters and designers to join in.  So, if you have a game you want tested or want to try out new games before
@@ -51,38 +43,22 @@
                     <br />
                     <br />
 
-                    Note, this site is still developing. So, please don't be surprised if all of the links do not work.
+                    Note, this site is still developing, therefore the most up to date information can be found on our meetup group website, 
+                    <a href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break My Game</a>.
                 </p>
             </div>
             <!-- End main content section -->
         </div>
         <?php
-        include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageBottom.php");
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         
         <!--  javascript section -->
+        <!-- adds in all of the javascript code required to run a basic page -->
+        <?php
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
+        ?>
 
-        <!-- loading jquery, bootstrap and modernizr javascript files (do not change unless you know what you are doing) -->
-        <script src="/multiUseCode/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="/multiUseCode/js/vendor/bootstrap.min.js"></script>
-        <script src="/multiUseCode/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="/js/vendor/bootstrap.min.js"></script>
-        
-        <!-- Loading jQuery (needed for twitter bootstrap) -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-			window.jQuery || document.write('<script src="multiUseCode/js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-
-        <!-- javascript plugins applied to every page-->   
-        <script src="/multiUseCode/js/plugins.js"></script>
-        
-        <!-- javascript applied to every page -->
-        <script src="/multiUseCode/js/main.js"></script> 
-        
-        <!-- javascript applied to the page header and footer --> 
-        <script src="/multiUseCode/pageTopBot/pageTopBot.js"></script>
-        
         <!-- unique javascript for this page --> 
         <script src="/index.js"></script>
      </body>

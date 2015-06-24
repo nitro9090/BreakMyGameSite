@@ -6,9 +6,3 @@ ErrorDocument 404 /root/404error/404.php
 # 2 ---- Prevent directory file listng ---- 2 #
 
 IndexIgnore *
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^breakmygamegroup\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.breakmygamegroup\.com$
-RewriteRule ^/?$ "http\:\/\/www\.meetup\.com\/Break\-My\-Game\-Developers\-and\-Playtesters\-Unite\/" [R=301,L]
-

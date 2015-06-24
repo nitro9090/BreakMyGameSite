@@ -8,23 +8,13 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        
-        <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/metadata.php");
-            ?>
-            
         <title>Break My Game - Template</title>
         <meta name="description" content="">
 
-        <!-- Loading the BootStrap CSS files (do not change unless you know what you are doing) -->
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap-theme.min.css">
-
-        <!--  CSS applied to every page -->
-        <link rel="stylesheet" href="/multiUseCode/css/main.css">   
-        
-        <!--  CSS for page header and footer -->
-        <link rel="stylesheet" href="/multiUseCode/pageTopBot/pageTopBot.css">   
+		<!-- This include adds the basic header lines needed to run the basic page -->
+        <?php
+            include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
+        ?>
         
         <!-- unique CSS for this page EDIT MY LINK! -->
         <link rel="stylesheet" href="feedbackForms.css">
@@ -37,12 +27,12 @@
         <div id="wrapper">
             <!-- Inserts header html into the page -->
             <?php
-            include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageTop.php");
+            	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
             <div class="container text-center" >
                 <h2>Feedback Forms</h2>	
-				<div id="formDiv">
+				<div id="formDiv" autocomplete="on">
  					<form name="boardGameFeedback" id="feedbackForm" onsubmit="return false;">	
  						<div class="inputBlock">
 							<label class="labels" for="datePlayed"> Date Played: </label>
@@ -55,12 +45,13 @@
 							<div class="inputs">
 								<!--add dropdown down folder --->
 								<input id="gameName" type="text" placeholder='What game did you play?' maxlength="100">
+								<span id="gameNameStatus"></span>
 							</div>
 						</div>
 						<div class="inputBlock">
 							<label class="labels" for="numPlayers">Number of Players:</label>
 							<div class="inputs">
-								<input id="numPlayers" type="number" min="1" max="40" placeholder='ex: "5"'>
+								<input id="numPlayers" type="number" min="1" max="100" placeholder='ex: "5"'>
 							</div>
 						</div>
 						<div class="inputBlock">
@@ -71,7 +62,7 @@
 								<input type="radio" value="3" name="enjoyGame"> 3 
 								<input type="radio" value="4" name="enjoyGame"> 4
 								<input type="radio" value="5" name="enjoyGame"> 5 a lot!
-								<textarea class="smallTextArea" id="enjoyGameDetails" placeholder="Give a short explanation" maxlength="300"></textarea>
+								<textarea class="smallTextArea" id="enjoyGameDetails" placeholder="(optional) Give a short explanation" maxlength="300"></textarea>
 							</div>
 						</div>
 						<div class="inputBlock">
@@ -79,7 +70,7 @@
 							<div class="inputs">
 								<input type="radio" value="Y" name="normallyPlay"> Yes 
 								<input type="radio" value="N" name="normallyPlay"> No
-								<textarea class="smallTextArea" id="normallyPlayDetails" placeholder="If not, what would you normally play?" maxlength="200"></textarea>
+								<textarea class="smallTextArea" id="normallyPlayDetails" placeholder="(optional) If not, what would you normally play?" maxlength="200"></textarea>
 							</div>
 						</div>
 						<div class="inputBlock">
@@ -97,7 +88,7 @@
 								<input type="radio" values="3" name="clearRules"> 3 
 								<input type="radio" values="4" name="clearRules"> 4
 								<input type="radio" values="5" name="clearRules"> 5 very clear!
-								<textarea class="smallTextArea" id="clearRulesDetails" placeholder='ex: "yes, but..."' maxlength="200"></textarea>
+								<textarea class="smallTextArea" id="clearRulesDetails" placeholder='(optional) ex: "yes, but..."' maxlength="200"></textarea>
 							</div>
 						</div>
 						<div class="inputBlock">
@@ -121,12 +112,12 @@
 						<div class="inputBlock">
 							<label class="labels" for="addComments">Additional Comments:</label>
 							<div class="inputs">
-								<textarea class="bigTextArea" id="addComments" placeholder='Anything else you would like to say about the game?' maxlength="300"></textarea>
+								<textarea class="bigTextArea" id="addComments" placeholder='(optional) Anything else you would like to say about the game?' maxlength="300"></textarea>
 							</div>
 						</div>
 					</form>
-					<div  id="submitButton">
-						<button onclick="submitFeedback()">
+					<div  id="submitButtonDiv">
+						<button id="submitButton">
 							Submit
 						</button>
 					</div>
@@ -138,29 +129,14 @@
         
         <!-- inserts footer html into the page -->
         <?php
-        include_once ($_SERVER ['DOCUMENT_ROOT'] . "/MultiUseCode/pageTopBot/pageBottom.php");
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         <!--  javascript section -->
 
-        <!-- loading jquery, bootstrap and modernizr javascript files (do not change unless you know what you are doing) -->
-        <script src="/multiUseCode/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="/multiUseCode/js/vendor/bootstrap.min.js"></script>
-        <script src="/multiUseCode/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        
-        <!-- Loading jQuery (needed for twitter bootstrap) -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-			window.jQuery || document.write('<script src="multiUseCode/js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-
-        <!-- javascript plugins applied to every page-->   
-        <script src="/multiUseCode/js/plugins.js"></script>
-        
-        <!-- javascript applied to every page -->
-        <script src="/multiUseCode/js/main.js"></script> 
-        
-        <!-- javascript applied to the page header and footer --> 
-        <script src="/multiUseCode/pageTopBot/pageTopBot.js"></script>
+        <<!-- adds in all of the javascript code required to run a basic page -->
+        <?php
+			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
+        ?>
         
         <!-- unique javascript for this page --> 
         <script src="/root/FeedbackForms/feedbackForms.js"></script>

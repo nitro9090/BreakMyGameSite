@@ -18,7 +18,7 @@
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown"> Joining In <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="/root/Calendar/calendar.php">Calendar</a></li>
+						<li><a href="/root/calendar/calendar.php">Calendar</a></li>
 						<li><a href="/root/designerStandards/designerStandards.php">Designer Standards</a></li>
 						<li><a href="/root/sealOfApproval/sealOfApproval.php">Seal of Approval</a></li>
 						<li><a href="/root/FAQ/FAQ.php">FAQ</a></li>

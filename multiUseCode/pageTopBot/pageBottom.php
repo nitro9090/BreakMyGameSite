@@ -4,11 +4,12 @@
 		<div class="row">
 			<div class="col-md-1">Contact Us</div>
 			<div class="col-md-3">
-				email <br /> phone number
+				Daniel Palmer <br /> daniel@breakmygamegroup.com
 			</div>
 			<div class="col-md-4">
 				<div id="socialLinks">
 					<div id="facebookButton">
+					<div id="fb-root"></div>
 						<div class="fb-share-button"
 							data-href="https://www.facebook.com/groups/422826824540180/"
 							data-layout="button"></div>
