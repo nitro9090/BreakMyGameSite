@@ -8,7 +8,8 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        <title>Break My Game - Calendar</title>
+            
+        <title>Break My Game - Template</title>
         <meta name="description" content="">
 
         <!-- This include adds the basic header lines needed to run the basic page -->
@@ -17,7 +18,7 @@
         ?>
         
         <!-- unique CSS for this page -->
-        <link rel="stylesheet" href="calendar.css">
+        <link rel="stylesheet" href="photos.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,25 +27,33 @@
    
         <div id="wrapper">
             <!-- Inserts header html into the page -->
-            <?php
+           <?php
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
-            <div class="container text-center">
-            	<h2> Calendar</h2>
-            	<p> All of the Break My Game events are listed here.  If you would like to be updated when new events are posted, please join the
-            	<a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">Meetup Group.</a>  
-            	</p>       	
-				<iframe src="https://www.google.com/calendar/embed?src=1jlqtnhosfkqgsmkf4hmcled8rk9aeqs%40import.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                
-                <!--  <iframe id="meetupCalendar" src="http://meetu.ps/2JLcLp" frameborder="0"></iframe>
-                <iframe id="smallMeetupCalendar" src="http://meetu.ps/2JppYr" frameborder="0"></iframe>-->
-         
+            <div class="container text-center" >
+            	<div class ="bannerContainer">
+                	<div class="scrollPhotoBanner">
+                		<img class="firstImage" src="/img/image-1.png" alt="">
+                		<img src="/img/image-2.png" alt="">
+                		<img src="/img/image-3.png" alt="">
+                		<img src="/img/image-4.png" alt="">
+                		<img src="/img/image-5.png" alt="">
+                		<img src="/img/image-6.png" alt="">
+           		     	<img src="/img/image-1.png" alt="">
+                		<img src="/img/image-2.png" alt="">
+                		<img src="/img/image-3.png" alt="">
+            	    	<img src="/img/image-4.png" alt="">
+                		<img src="/img/image-5.png" alt="">
+                	</div>
+                </div>
             </div>
             <!-- End main content section -->
         </div>
+        
+        <!-- inserts footer html into the page -->
         <?php
-			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
+		include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         <!--  javascript section -->
 
@@ -54,6 +63,7 @@
         ?>
         
         <!-- unique javascript for this page --> 
-        <script src="/root/template/template.js"></script>
+        <script src="/root/photos/photos.js"></script>
+        <!-- end javascript section -->
     </body>
 </html>

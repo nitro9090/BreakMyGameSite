@@ -2,7 +2,6 @@
  * @author nitro9090
  */
 <!-- facebook button script -->
-<div id="fb-root"></div>
 ( function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
 	if (d.getElementById(id))

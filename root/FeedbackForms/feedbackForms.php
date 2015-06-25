@@ -139,7 +139,7 @@
         ?>
         
         <!-- unique javascript for this page --> 
-        <script src="/root/FeedbackForms/feedbackForms.js"></script>
+        <script src="/root/feedbackForms/feedbackForms.js"></script>
         
         <!-- end javascript section -->
     </body>

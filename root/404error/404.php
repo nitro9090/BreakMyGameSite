@@ -34,7 +34,7 @@
             <div class="container text-center" >
                 <h1>Oh No!!!</h1>
                 <p>The page you are looking for is in another dungeon.</p>
-                <p> If you continue to have issues, please contact our site administrator </p>
+                <p> If you continue to have issues, please contact our site administrator, currently that is <a href="mailto:mike@breakmygamegroup.com">Mike</a> </p>
                 
             </div>
             <!-- End main content section -->

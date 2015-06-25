@@ -43,8 +43,14 @@
                     <br />
                     <br />
 
-                    Note, this site is still developing, therefore the most up to date information can be found on our meetup group website, 
-                    <a href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break My Game</a>.
+                    Note, this site is still developing.  If you need any information that has yet to be added to this site you should first check out the 
+                    <a href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break My Game - Meetup Page</a> and if you still can't find
+                    what you are looking for contact <a href ="mailto:daniel@breakmygamegroup.com">Daniel Palmer</a>, the head of Break of My Game.
+                    
+                    <br />
+                    <br />
+                    If you have additional thoughts or suggestions of things to add or adjust on this site, please contact <a href="mailto:mike@breakmygamegroup.com">Mike</a>
+                    (he doesn't bite, but he will make you play board games).
                 </p>
             </div>
             <!-- End main content section -->

@@ -32,7 +32,7 @@
             <!-- main content section -->
             <div class="container text-center" >
                 <h2>Break My Game Seal of Approval</h2>
-                This section is still under construction. If you want this finished sooner support your site administator.
+                This section is still under construction. If you want this finished sooner support your site administator and harass Daniel.
             </div>
             <!-- End main content section -->
         </div>

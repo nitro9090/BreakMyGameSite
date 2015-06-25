@@ -30,7 +30,7 @@
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
-             <div class="container text-center" >
+            <div class="container text-center" >
                 <h2>The Leadership</h2>
                 <div class="leaderInfoblock text-left">
                 	<div class="col-md-2">
@@ -39,11 +39,23 @@
                 	<div class="col-md-10">
                 	   <h3 class="leaderName">Daniel Palmer</h3>
                 	   <h4 class="leaderPosition"> Lord and Master of Breaking Games</h4>
-                	   <p>Not only is he the original organizer of Break My Game, but he is also an amazing guy.
+                	   <hr class="leaderHr">
+                	   <p class="leaderDesc">Not only is he the original organizer of Break My Game, but he is also an amazing guy.
                 	   Having put tons of blood, sweat and tears in to improving this organization and making it
                 	   a force to be recommended with he organizes events, convention booths, does advertising and 
                 	   even finds time to work on comic books with 
                 	   <a href="https://www.facebook.com/RavenWarrenStudios">Raven Warren Studios</a></p>
+                	</div>
+                	
+                	<div class="col-md-2">
+                	   <img class="leaderImage" src="/img/BMG-Logo-v2-mainPage.jpg">
+                	</div>
+                	<div class="col-md-10">
+                	   <h3 class="leaderName">Michael Lindon</h3>
+                	   <h4 class="leaderPosition"> Lord of the site</h4>
+                	   <hr class="leaderHr">
+                	   <p class="leaderDesc">The swell guy who has put this site together and until recently has been a part of
+                	   every break my game.  He likes gaming, game designing, coding and long walks on the beach. </a></p>
                 	</div>
                 </div>
             </div>
@@ -62,7 +74,7 @@
         ?>
         
         <!-- unique javascript for this page --> 
-        <script src="/root/template/theLeadership.js"></script>
+        <script src="/root/theLeadership/theLeadership.js"></script>
         <!-- end javascript section -->
     </body>
 </html>
