@@ -9,7 +9,8 @@
     <head>
         <!--  meta data for the site -->
         <title>Break My Game - Calendar</title>
-        <meta name="description" content="">
+        <meta name="description" content="Check out upcoming events with Break My Game.">
+		<meta name="author" content="Michael Lindon">
 
         <!-- This include adds the basic header lines needed to run the basic page -->
         <?php
@@ -35,7 +36,7 @@
             	<p> All of the Break My Game events are listed here.  If you would like to be updated when new events are posted, please join the
             	<a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">Meetup Group.</a>  
             	</p>       	
-				<iframe src="https://www.google.com/calendar/embed?src=1jlqtnhosfkqgsmkf4hmcled8rk9aeqs%40import.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <iframe id="calendarGoogle" src="https://www.google.com/calendar/embed?src=747p8vet5mb4o17ehbp3kgvpgs%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 
                 <!--  <iframe id="meetupCalendar" src="http://meetu.ps/2JLcLp" frameborder="0"></iframe>
                 <iframe id="smallMeetupCalendar" src="http://meetu.ps/2JppYr" frameborder="0"></iframe>-->

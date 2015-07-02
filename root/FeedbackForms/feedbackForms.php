@@ -8,8 +8,9 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        <title>Break My Game - Template</title>
-        <meta name="description" content="">
+        <title>Break My Game - Feedback Form</title>
+        <meta name="description" content="Give feedback on a game recently played at a Break My Game event">
+		<meta name="author" content="Michael Lindon">
 
 		<!-- This include adds the basic header lines needed to run the basic page -->
         <?php
@@ -31,9 +32,10 @@
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-                <h2>Feedback Forms</h2>	
-				<div id="formDiv" autocomplete="on">
- 					<form name="boardGameFeedback" id="feedbackForm" onsubmit="return false;">	
+                <!--  <h2>Feedback Forms</h2>	-->
+                
+				<iframe id="googleFeedbackForm" src="https://docs.google.com/forms/d/1KSF5EKG7DxvXj5H04SKSiWbihx3t3c5C8iOZ-Hq_D2U/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>				<div id="formDiv" autocomplete="on">
+ 					<!--  <form name="boardGameFeedback" id="feedbackForm" onsubmit="return false;">	
  						<div class="inputBlock">
 							<label class="labels" for="datePlayed"> Date Played: </label>
 							<div class="inputs">
@@ -43,7 +45,7 @@
 						<div class="inputBlock">
 							<label class="labels" for="gameName"> Game Name: </label>
 							<div class="inputs">
-								<!--add dropdown down folder --->
+								
 								<input id="gameName" type="text" placeholder='What game did you play?' maxlength="100">
 								<span id="gameNameStatus"></span>
 							</div>
@@ -121,7 +123,7 @@
 							Submit
 						</button>
 					</div>
-					<p id="status">This form is still incomplete</p>
+					<p id="status">This form is still incomplete</p>-->
 				</div>
 			</div>
             <!-- End main content section -->
@@ -133,7 +135,7 @@
         ?>
         <!--  javascript section -->
 
-        <<!-- adds in all of the javascript code required to run a basic page -->
+        <!-- adds in all of the javascript code required to run a basic page -->
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>

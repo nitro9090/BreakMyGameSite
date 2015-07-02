@@ -8,9 +8,9 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-            
-        <title>Break My Game - Template</title>
-        <meta name="description" content="">
+        <title>Break My Game - Photos</title>
+        <meta name="description" content="Photos from Break My Game Events.">
+		<meta name="author" content="Michael Lindon">
 
         <!-- This include adds the basic header lines needed to run the basic page -->
         <?php
@@ -34,17 +34,29 @@
             <div class="container text-center" >
             	<div class ="bannerContainer">
                 	<div class="scrollPhotoBanner">
-                		<img class="firstImage" src="/img/image-1.png" alt="">
-                		<img src="/img/image-2.png" alt="">
-                		<img src="/img/image-3.png" alt="">
-                		<img src="/img/image-4.png" alt="">
-                		<img src="/img/image-5.png" alt="">
-                		<img src="/img/image-6.png" alt="">
-           		     	<img src="/img/image-1.png" alt="">
-                		<img src="/img/image-2.png" alt="">
-                		<img src="/img/image-3.png" alt="">
-            	    	<img src="/img/image-4.png" alt="">
-                		<img src="/img/image-5.png" alt="">
+                		<a class="firstImage" href="http://photos3.meetupstatic.com/photos/event/5/8/d/4/highres_438022740.jpeg">
+                		<img class="firstImage" src="http://photos3.meetupstatic.com/photos/event/5/8/d/4/event_438022740.jpeg" alt=""></a>
+                		<a href="http://photos4.meetupstatic.com/photos/event/c/d/a/c/highres_438052652.jpeg">
+                		<img src="http://photos4.meetupstatic.com/photos/event/c/d/a/c/event_438052652.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/2/8/2/5/600_438070277.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/2/8/2/5/event_438070277.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/8/4/1/highres_438122113.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/8/4/1/event_438122113.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/7/7/a/5/highres_435330629.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/7/7/a/5/event_435330629.jpeg" alt=""></a>
+                		<a href="http://photos3.meetupstatic.com/photos/event/7/7/c/f/highres_435330671.jpeg">
+                		<img src="http://photos3.meetupstatic.com/photos/event/7/7/c/f/event_435330671.jpeg" alt=""></a>
+                		
+                		<a href="http://photos3.meetupstatic.com/photos/event/5/8/d/4/highres_438022740.jpeg">
+                		<img src="http://photos3.meetupstatic.com/photos/event/5/8/d/4/event_438022740.jpeg" alt=""></a>
+                		<a href="http://photos4.meetupstatic.com/photos/event/c/d/a/c/highres_438052652.jpeg">
+                		<img src="http://photos4.meetupstatic.com/photos/event/c/d/a/c/event_438052652.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/2/8/2/5/600_438070277.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/2/8/2/5/event_438070277.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/8/4/1/highres_438122113.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/8/4/1/event_438122113.jpeg" alt=""></a>
+                		<a href="http://photos1.meetupstatic.com/photos/event/7/7/a/5/highres_435330629.jpeg">
+                		<img src="http://photos1.meetupstatic.com/photos/event/7/7/a/5/event_435330629.jpeg" alt=""></a>
                 	</div>
                 </div>
             </div>

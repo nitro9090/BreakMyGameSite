@@ -13,22 +13,33 @@ html, body {
 	height: 100%;
 	/* Negative indent footer by it's height */
 	margin-bottom: -70px; /*height of the header + 2 * margin of #footerHr tag*/
-	padding: 60px 0 60px; /*the 50px is for the header hgt, 60px for footer hgt*/
+	padding: 60px 0 70px; /*the 50px is for the header hgt, 60px for footer hgt*/
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-	height: 60px;
+	height: 70px;
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 	#wrapper {
-		margin-bottom: -140px; /*height of the header + 2 * margin of #footerHr tag*/
-		padding: 60px 0 130px 0; /*the 60px is for the header hgt, 100px for footer hgt*/
+		margin-bottom: -150px; /*height of the header + 2 * margin of #footerHr tag*/
+		padding: 60px 0 150px 0; /*the 60px is for the header hgt, 100px for footer hgt*/
 	}
 	#footer {
-		height: 120px;
+		height: 150px;
+	}
+}
+
+/* Medium devices (tablets, 750px and up) */
+@media (max-width: 750px) {
+	#wrapper {
+		margin-bottom: -160px; /*height of the header + 2 * margin of #footerHr tag*/
+		padding: 60px 0 150px 0; /*the 60px is for the header hgt, 100px for footer hgt*/
+	}
+	#footer {
+		height: 140px;
 	}
 }
 
@@ -80,8 +91,10 @@ html, body {
 	display: inline-block;
 	margin: 7px 0px 0 10px;
 }
+
 #copyrightSection {
 	text-align: right;
+	margin: 12px 0 0 0;
 }
 
 @media (max-width: 992px) {
@@ -89,8 +102,19 @@ html, body {
 	text-align: left;
 	margin: 0px 5px 0 0;
 	}
+	
 	#copyrightSection {
 	text-align: left;
-	margin: 0px 5px 0 0;
+	margin: 1px 5px 0 0;
+	}
+	
+	#facebookButton{
+	display: inline-block;
+	margin: 2px 10px 0 0;
+	}
+
+	#meetupButton {
+	display: inline-block;
+	margin: 2px 0px 0 10px;
 	}
 }

@@ -8,19 +8,17 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        
-        <title>Break My Game - Error 404</title>
-        <meta name="description" content="This is not the page you are looking for.">
+            
+        <title>Break My Game - Template</title>
+        <meta name="description" content="DESCRIBE THE PAGE">
 		<meta name="author" content="Michael Lindon">
-		<meta name="robots" content="noindex, nofollow">
 
-   		<!-- This include adds the basic header lines needed to run the basic page -->
+        <!-- This include adds the basic header lines needed to run the basic page -->
         <?php
             include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
         ?>
         
-        <!-- unique CSS for this page EDIT MY LINK! -->
-        <link rel="stylesheet" href="404.css">
+        <link rel="stylesheet" href="blog.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -29,32 +27,29 @@
    
         <div id="wrapper">
             <!-- Inserts header html into the page -->
-            <?php
+           <?php
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-                <h1>Oh No!!!</h1>
-                <p>The page you are looking for is in another dungeon.</p>
-                <p> If you continue to have issues, please contact our site administrator, currently that is <a href="mailto:mike@breakmygamegroup.com">Mike</a> </p>
-                
+                <!-- insert page content here -->
             </div>
             <!-- End main content section -->
         </div>
         
         <!-- inserts footer html into the page -->
         <?php
-			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
+		include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         <!--  javascript section -->
-		
-		<!-- adds in all of the javascript code required to run a basic page -->
+
+        <!-- adds in all of the javascript code required to run a basic page -->
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>
         
         <!-- unique javascript for this page EDIT MY LINK! --> 
-        <script src="/root/template/template.js"></script>
+        <script src="/root/blog/blog.js"></script>
         <!-- end javascript section -->
     </body>
 </html>

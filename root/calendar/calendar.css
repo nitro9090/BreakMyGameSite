@@ -2,6 +2,11 @@
 	text-align: center;
 }
 
+#calendarGoogle {
+	max-width: 1100px;
+	height: 700px;
+}
+
 #meetupCalendar {
 	margin: 20px 0 0 0;
 	width: 600px; 
@@ -16,7 +21,7 @@
 	visibility: hidden;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 992px) {
 	#meetupCalendar {
 	width: 0px; 
 	height: 0px;
@@ -27,5 +32,24 @@
 	width: 225px; 
 	height: 300px;
 	visibility: visible;
+	}
+	
+	#calendarGoogle {
+	width: 700px;
+	height: 500px;
+	}
+}
+
+@media (max-width: 765px) {
+	#calendarGoogle {
+	width: 600px;
+	height: 500px;
+	}
+}
+
+@media (max-width: 550px) {
+	#calendarGoogle {
+		max-width: 350px;
+		height: 500px;
 	}
 }

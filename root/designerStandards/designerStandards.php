@@ -9,7 +9,8 @@
     <head>
         <!--  meta data for the site -->
         <title>Break My Game - Designer Standards</title>
-        <meta name="description" content="">
+        <meta name="description" content="The standards we expect our game designers to uphold.">
+		<meta name="author" content="Michael Lindon">
         
 		<!-- This include adds the basic header lines needed to run the basic page -->
         <?php

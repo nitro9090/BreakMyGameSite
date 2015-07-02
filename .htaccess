@@ -6,3 +6,5 @@ ErrorDocument 404 /root/404error/404.php
 # 2 ---- Prevent directory file listng ---- 2 #
 
 IndexIgnore *
+
+

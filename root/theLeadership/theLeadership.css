@@ -2,9 +2,49 @@ h2 {
 	margin: 10px 0 20px 0;
 }
 
-.leaderImage {
-	overflow:hidden;
+.leaderTable > tbody> tr {
+	width: 100%;
 }
+
+.leaderTable > tbody> tr > td {
+	width: 100%;
+}
+
+.leaderInfoBlock {
+	display:block;
+	margin: 20px 0 10px 0;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+.leaderImageBlock{
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+
+.leaderImage {
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 250px;
+	max-height: 250px;
+	
+}
+
+.imageLeft{
+	float: left;
+	margin: 0 20px 0 0;
+	
+}
+
+.imageRight{
+	float: right;
+
+	margin: 0 0 0 20px;
+}
+
+.leaderDescBlock {
+}
+
 .leaderName {
 	display:inline;
 	text-align:left;
@@ -28,4 +68,19 @@ h2 {
 	.leaderPosition {
 	 float: none;
 	}
+	
 }
+
+@media (max-width: 765px) {
+	.leaderDescBlock {
+		display:block;
+		max-width: 765px;
+		text-align: center;
+	}
+	.leaderImageBlock{
+		display:block;
+		float: none;
+		margin: 0 auto 0 auto;
+	}
+}
+

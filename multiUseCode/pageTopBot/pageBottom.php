@@ -3,12 +3,11 @@
 		<hr id="footerHr">
 		<div class="row">
 			<div class="col-md-1">Contact Us</div>
-			<div class="col-md-3">
-				Daniel Palmer <br /> daniel@breakmygamegroup.com
-			</div>
 			<div class="col-md-4">
+				Daniel Palmer <br /> <a href="mailto:daniel@breakmygamegroup.com"> daniel at breakmygamegroup.com </a>
+			</div>
+			<div class="col-md-2">
 				<div id="socialLinks">
-				
 					<div id="facebookButton">
 					<div id="fb-root"></div>
 						<div class="fb-share-button"
@@ -22,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<p class="text-muted" id="copyrightSection">&copy; Break My Game
 					2015</p>
 			</div>

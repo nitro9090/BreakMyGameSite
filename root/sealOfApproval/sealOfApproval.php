@@ -9,7 +9,8 @@
     <head>
         <!--  meta data for the site -->
         <title>Break My Game - Seal of Approval</title>
-        <meta name="description" content="">
+        <meta name="description" content="Games that earn the Break My Game are considered ready for distribution, the highest honor Break My Game can give.">
+		<meta name="author" content="Michael Lindon">
         
 		<!-- This include adds the basic header lines needed to run the basic page -->
         <?php

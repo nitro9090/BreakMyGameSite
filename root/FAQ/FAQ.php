@@ -8,8 +8,9 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        <title>Break My Game</title>
-        <meta name="description" content="">
+        <title>Break My Game - FAQ</title>
+        <meta name="description" content="Frequently asked questions">
+		<meta name="author" content="Michael Lindon">
 
 		<!-- This include adds the basic header lines needed to run the basic page -->
         <?php

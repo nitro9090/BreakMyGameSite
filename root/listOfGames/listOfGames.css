@@ -1,0 +1,51 @@
+
+.gameInfo {
+	border: 2px solid silver;
+	padding: 0 0 0 3px;
+}
+
+.gameDescDropDown {
+	overflow: hidden;
+	height: 0px;
+	/*display: none;*/
+	text-align: left;
+	margin: 0 auto 0 auto;
+	-webkit-transition: all .5s ease-in-out;
+  	-moz-transition: all .5s ease-in-out;
+  	-ms-transition: all .5s ease-in-out;
+  	-o-transition: all .5s ease-in-out;
+  	transition: all .5s ease-in-out;
+}	
+
+.gameDescHead {
+	text-align: left;
+	width: 100%;
+}
+
+.gameDescHead > tbody > tr > td {
+	width: 49%;
+}
+
+.sign {
+	height: 100%;
+	width: 2%; 
+	text-align:center;
+}
+
+.gameDescTable {
+	text-align: left;
+	width: 98%;
+}
+
+.gameDescTable > tbody > tr > td {
+	width: 50%;
+}
+
+.filler {
+	height: 100%;
+	width: 2%; 
+	text-align:center;
+}
+.gameDesc {
+	margin: 3px 0 0 3px;
+}

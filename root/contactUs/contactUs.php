@@ -9,8 +9,8 @@
     <head>
         <!--  meta data for the site -->
             
-        <title>Break My Game - Template</title>
-        <meta name="description" content="DESCRIBE THE PAGE">
+        <title>Break My Game - Contact Us</title>
+        <meta name="description" content="If you need to talk to the administration, here is our cantact info.">
 		<meta name="author" content="Michael Lindon">
 
         <!-- This include adds the basic header lines needed to run the basic page -->
@@ -19,7 +19,7 @@
         ?>
         
         <!-- unique CSS for this page EDIT MY LINK! -->
-        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="contactUs.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -33,7 +33,37 @@
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-                <!-- insert page content here -->
+                <h2>Contact Us</h2>
+                <p> The best way to discuss ideas and thoughts about Break My Game is to post 
+                on our <a href="">Meetup page</a> and we will respond as fast as possible.  However,
+                if you need help with something specific, our contact info is below.
+                </p>
+                
+                
+                <div class="contactBlock col-md-6"> 
+                	<h3> <b>Daniel Palmer </b></h3>
+                	<p> <b>Event Organizer and Head of Break My Game</b>
+                	<br> Email: daniel at breakmygamegroup.com
+                	<!--  <br> Twitter handle: -->
+                	</p>
+                 </div>
+                 
+                 <!--  <div class="contactBlock col-md-6"> 
+                	<h3> Kiva Fecteau </h3>
+                	<p> Social Media
+                	<br> Email: 
+                	<br> twitter handle: 
+                	</p>
+                 </div>-->
+                 
+                 
+                 <div class="contactBlock col-md-6"> 
+                	<h3> <b>Michael Lindon</b> </h3>
+                	<p> <b>Site Administrator</b>
+                	<br> Email: mike at breakmygamegroup.com
+                	<!--  <br> twitter handle:-->
+                	</p>
+                 </div>
             </div>
             <!-- End main content section -->
         </div>
@@ -50,7 +80,7 @@
         ?>
         
         <!-- unique javascript for this page EDIT MY LINK! --> 
-        <script src="/root/template/template.js"></script>
+        <script src="/root/contactUs/contactUs.js"></script>
         <!-- end javascript section -->
     </body>
 </html>
