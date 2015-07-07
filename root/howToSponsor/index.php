@@ -9,16 +9,18 @@
 <head>
 <!--  meta data for the site -->
 
-<title>Break My Game - Blog</title>
-<meta name="description" content="The BMG blog. Where you can find out about all of our happenings.">
+<title>Break My Game - Designers and Playtesters Unite!</title>
+<meta name="description" content="Are you a board game designer or love playtesting games in the DC area, then join us at Break My Game.">
 <meta name="author" content="Michael Lindon">
 
 <!-- This include adds the basic header lines needed to run the basic page -->
         <?php
-            include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
-        ?>
+		include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
+		?>
         
-        <link rel="stylesheet" href="blog.css">
+        <!-- unique CSS for this page -->
+<link rel="stylesheet" href="multiUseCode/css/scrollingBanner.css">
+<link rel="stylesheet" href="/index.css">
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -27,34 +29,39 @@
 
 	<div id="wrapper">
 		<!-- Inserts header html into the page -->
-           <?php
+            <?php
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
 		<div class="container text-center">
-			<h2> The BMG blog </h2>
-			<table class="blogTable">
-				<?php
-            		include_once "blog_php.php";
-            	?>
-			</table>
+			<h1>Welcome to Riding Grizzlies Games </h1>
+			
+			<p id="aboutBMG">
+				We are a two man band who make sophisticated games for the 
+				good of man kind. 
+				<br />
+				<br /> 
+				Our first project is an android game codenamed "The Gridgame." In this game players take on a traditional heroic 
+				and must defeat AI and/or human opponents in a series of unique grid-based combat scenarios. 
+				<br />
+				<br />
+				This site is still under construction.  So, if you see anything you want changed sooner rather than later
+				send <a href="mailto:nitro9090@yahoo.com">Mike</a> a message.
+			</p>
 		</div>
 		<!-- End main content section -->
 	</div>
-
-	<!-- inserts footer html into the page -->
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
+        
         <!--  javascript section -->
-
 	<!-- adds in all of the javascript code required to run a basic page -->
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>
-        
-        <!-- unique javascript for this page EDIT MY LINK! -->
-	<script src="/root/blog/blog.js"></script>
-	<!-- end javascript section -->
+
+        <!-- unique javascript for this page -->
+	<script src="/index.js"></script>
 </body>
 </html>

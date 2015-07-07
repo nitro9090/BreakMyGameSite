@@ -20,6 +20,10 @@ html, body {
 	text-align: center;
 }
 
+h1, h2 {
+	margin-top: 10px;
+}
+
 @media (max-width: 768px) {
 	html, body {
 		font-size: medium;
@@ -29,9 +33,12 @@ html, body {
 	background-image: url("/img/BMG-Logo-v2-transparent3-shrunk.png");
 	background-repeat: no-repeat;
 	background-position: center; 
-}
+	}
 }
 
+hr {
+	margin: 2px 0 2px 0;
+}
 
 
 

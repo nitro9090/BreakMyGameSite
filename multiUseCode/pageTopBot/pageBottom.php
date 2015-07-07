@@ -2,11 +2,9 @@
 	<div class="container">
 		<hr id="footerHr">
 		<div class="row">
-			<div class="col-md-1">Contact Us</div>
+			<div class="col-md-4" id="footerContactUs">
+			<a href="/root/contactUs/contactUs.php">Contact Us</a></div>
 			<div class="col-md-4">
-				Daniel Palmer <br /> <a href="mailto:daniel@breakmygamegroup.com"> daniel at breakmygamegroup.com </a>
-			</div>
-			<div class="col-md-2">
 				<div id="socialLinks">
 					<div id="facebookButton">
 					<div id="fb-root"></div>
@@ -21,7 +19,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-4">
 				<p class="text-muted" id="copyrightSection">&copy; Break My Game
 					2015</p>
 			</div>

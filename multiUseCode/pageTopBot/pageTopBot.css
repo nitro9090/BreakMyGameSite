@@ -76,6 +76,10 @@ html, body {
 	margin: 5px;
 }
 
+#footerContactUs {
+	margin: 12px 0 0 0;
+}
+
 #socialLinks{
 	display:block;
 	width: auto;
@@ -98,13 +102,17 @@ html, body {
 }
 
 @media (max-width: 992px) {
+	
+	#footerContactUs {
+	text-align: center;
+	}
 	#socialLinks{
-	text-align: left;
+	text-align: center;
 	margin: 0px 5px 0 0;
 	}
 	
 	#copyrightSection {
-	text-align: left;
+	text-align:center;
 	margin: 1px 5px 0 0;
 	}
 	

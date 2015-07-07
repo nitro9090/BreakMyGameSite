@@ -10,7 +10,7 @@
 <!--  meta data for the site -->
 <title>Break My Game - The Leadership</title>
 <meta name="description"
-	content="The guys runnning who run Break My Game">
+	content="The guys who run Break My Game">
 <meta name="author" content="Michael Lindon">
 <meta name="ROBOTS" content="INDEX, FOLLOW">
 

@@ -42,8 +42,119 @@
 			
 			
 			<h3>Games Coming to the Next Break My Game</h3>
+			
+			<div class="gameInfo">
+				<table class="gameDescHead">
+					<tr>
+						<td><b>The Princely Courts </b></td>
+						<td><b>Designer:</b> Michael Lindon</td>
+						<td class="sign"><b> + </b></td>
+					</tr>
+				</table>
+				<div class="gameDescDropDown">
+					<table class="gameDescTable">
+						<tr>
+							<td><b>Game State:</b> Playtesting</td>
+							<td><b>Player Number</b>: 2-5</td>
+							<td class="filler"></td>
+						</tr>
+						<tr>
+							<td><b>Complexity:</b> 3</td>
+							<td><b>Luck Factor:</b> 0</td>
+							<td class="filler"></td>
+						</tr>
+					</table>
+					<p class="gameDesc">
+						The Princely Courts is a game of intrigue, trust and treachery,
+						based on the prisoner's dilemma.<br /> For years, the king has
+						kept the peace between each of his sons and daughters; however,
+						the king is growing in age. In order to decide his successor, the
+						king has called upon those same sons and daughters to come to his
+						court and show their political prowess. As one of those princes or
+						princesses, you must earn the respect of the king and the
+						kingdom's political elite by spreading your influence across the
+						court and working with the other princes and princesses to improve
+						the kingdom (Trust); all while sowing doubt in the other princes'
+						and princesses' abilities (Treachery).
+					</p>
+				</div>
+			</div>
+			
+			<div class="gameInfo">
+				<table class="gameDescHead">
+					<tr>
+						<td><b>The Princely Courts </b></td>
+						<td><b>Designer:</b> Michael Lindon</td>
+						<td class="sign"><b> + </b></td>
+					</tr>
+				</table>
+				<div class="gameDescDropDown">
+					<table class="gameDescTable">
+						<tr>
+							<td><b>Game State:</b> Playtesting</td>
+							<td><b>Player Number</b>: 2-5</td>
+							<td class="filler"></td>
+						</tr>
+						<tr>
+							<td><b>Complexity:</b> 3</td>
+							<td><b>Luck Factor:</b> 0</td>
+							<td class="filler"></td>
+						</tr>
+					</table>
+					<p class="gameDesc">
+						The Princely Courts is a game of intrigue, trust and treachery,
+						based on the prisoner's dilemma.<br /> For years, the king has
+						kept the peace between each of his sons and daughters; however,
+						the king is growing in age. In order to decide his successor, the
+						king has called upon those same sons and daughters to come to his
+						court and show their political prowess. As one of those princes or
+						princesses, you must earn the respect of the king and the
+						kingdom's political elite by spreading your influence across the
+						court and working with the other princes and princesses to improve
+						the kingdom (Trust); all while sowing doubt in the other princes'
+						and princesses' abilities (Treachery).
+					</p>
+				</div>
+			</div>
 
 			<h3> Games that have been at Break My Game</h3>
+			
+			<div class="gameInfo">
+				<table class="gameDescHead">
+					<tr>
+						<td><b>The Princely Courts </b></td>
+						<td><b>Designer:</b> Michael Lindon</td>
+						<td class="sign"><b> + </b></td>
+					</tr>
+				</table>
+				<div class="gameDescDropDown">
+					<table class="gameDescTable">
+						<tr>
+							<td><b>Game State:</b> Playtesting</td>
+							<td><b>Player Number</b>: 2-5</td>
+							<td class="filler"></td>
+						</tr>
+						<tr>
+							<td><b>Complexity:</b> 3</td>
+							<td><b>Luck Factor:</b> 0</td>
+							<td class="filler"></td>
+						</tr>
+					</table>
+					<p class="gameDesc">
+						The Princely Courts is a game of intrigue, trust and treachery,
+						based on the prisoner's dilemma.<br /> For years, the king has
+						kept the peace between each of his sons and daughters; however,
+						the king is growing in age. In order to decide his successor, the
+						king has called upon those same sons and daughters to come to his
+						court and show their political prowess. As one of those princes or
+						princesses, you must earn the respect of the king and the
+						kingdom's political elite by spreading your influence across the
+						court and working with the other princes and princesses to improve
+						the kingdom (Trust); all while sowing doubt in the other princes'
+						and princesses' abilities (Treachery).
+					</p>
+				</div>
+			</div>
 			
 			<div class="gameInfo">
 				<table class="gameDescHead">

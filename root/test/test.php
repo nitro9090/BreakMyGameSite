@@ -8,17 +8,18 @@
     <!--<![endif]-->
     <head>
         <!--  meta data for the site -->
-        <title>Break My Game - Feedback Form</title>
-        <meta name="description" content="Give feedback on a game recently played at a Break My Game event">
+            
+        <title>Break My Game - Template</title>
+        <meta name="description" content="DESCRIBE THE PAGE">
 		<meta name="author" content="Michael Lindon">
 
-		<!-- This include adds the basic header lines needed to run the basic page -->
+        <!-- This include adds the basic header lines needed to run the basic page -->
         <?php
             include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
         ?>
         
         <!-- unique CSS for this page EDIT MY LINK! -->
-        <link rel="stylesheet" href="feedbackForms.css">
+        <link rel="stylesheet" href="test.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -27,22 +28,24 @@
    
         <div id="wrapper">
             <!-- Inserts header html into the page -->
-            <?php
+           <?php
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-
-				<iframe id="googleFeedbackForm" src="https://docs.google.com/forms/d/1KSF5EKG7DxvXj5H04SKSiWbihx3t3c5C8iOZ-Hq_D2U/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>				<div id="formDiv" autocomplete="on">
-
-				</div>
-			</div>
+                <form>
+    				<label for="userid">User ID :</label>
+   					<input type="text" name ="userid" id="userid" onblur="PostData()" />
+   					<div id="div1"></div>
+    				<input type="button" value ="Check" onclick="PostData()" />
+				</form>
+            </div>
             <!-- End main content section -->
         </div>
         
         <!-- inserts footer html into the page -->
         <?php
-			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
+		include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>
         <!--  javascript section -->
 
@@ -51,9 +54,8 @@
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>
         
-        <!-- unique javascript for this page --> 
-        <script src="/root/feedbackForms/feedbackForms.js"></script>
-        
+        <!-- unique javascript for this page EDIT MY LINK! --> 
+        <script src="/root/test/test.js"></script>
         <!-- end javascript section -->
     </body>
 </html>

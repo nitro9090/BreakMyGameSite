@@ -1,5 +1,5 @@
 h2 {
-	margin: 10px 0 20px 0;
+	margin-bottom: 20px;
 }
 
 .leaderTable > tbody> tr {
@@ -46,8 +46,8 @@ h2 {
 }
 
 .leaderName {
-	display:inline;
-	text-align:left;
+	display: inline;
+	text-align: left;
 	margin: 0 0 10px 0;
 }
 
@@ -68,7 +68,6 @@ h2 {
 	.leaderPosition {
 	 float: none;
 	}
-	
 }
 
 @media (max-width: 765px) {

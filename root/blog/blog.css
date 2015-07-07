@@ -1,0 +1,41 @@
+.blogTable {
+	width: 100%;
+}
+
+.blogBlock {
+	width: 100%;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+.blogHeadline {
+	display:block;
+	margin: 20px 0 5px 0;
+}
+
+.blogger {
+	display: inline;
+	text-align: left;
+	margin: 0 0 10px 0;
+	color: gray;
+}
+
+.blogDate {
+	float:right;
+	margin: 3px 0 0 0;
+	color: gray;
+}
+
+.blogHr {
+	margin: 3px 0 3px 0;
+}
+
+.blogText {
+	
+}
+
+@media (max-width: 992px) {
+	.blogDate {
+	 	float: none;
+	}
+}

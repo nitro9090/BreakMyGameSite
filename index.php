@@ -98,23 +98,36 @@
 			</div>
 
 			<p id="aboutBMG">
-				We are an organization for board game designers and playtesters. We
+				We are an organization for board game designers and playtesters who
 				meet up every third Sunday of the month to playtest unpublished
 				board games at <a href="http://www.theboardandbrew.com/">The Board
 					and Brew</a> in College Park MD, as well as meet up at various
 				local conventions. We are always looking for new playtesters and
 				designers to join in. So, if you have a game you want tested or want
-				to try out new games before they reach publishers come on by! <br />
-				<br /> Note, this site is still developing. If you need any
-				information that has yet to be added to this site you should first
-				check out the <a
+				to try out new games before they reach publishers come on by!
+				
+				<h3> Mind the Dust</h3>
+				
+				This site is still developing. So if you can't find something, check out the <a
 					href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break
-					My Game - Meetup Page</a> and if you still can't find what you are
+					My Game - Meetup Page</a>.  If you still can't find what you are
 				looking for contact <a href="mailto:daniel@breakmygamegroup.com">Daniel
-					Palmer</a>, the head of Break of My Game. <br /> <br /> If you have
-				additional thoughts or suggestions of things to add or adjust on
-				this site, please contact <a href="mailto:mike@breakmygamegroup.com">Mike</a>
-				(he doesn't bite, but he will make you play board games).
+					Palmer</a>, the head of Break of My Game.
+					
+				<h2><u> Upcoming Events</u></h2>
+				<table> 
+				<tr class="blogBlock">
+					<td>
+						<h3 class="eventHeadline">BMG is going to WashingCon </h3>
+						<h4 class="eventDates"> 9/12/2015 </h4>
+						<hr class="eventHr">
+						<p class="eventText">
+						Break My Game is teaming up with Unpub to put on a prototype gaming event.  It is 12 hours of playtesting awesomeness.  Those interested in having their games played should contact <a href="mailto:dan@breakmygamegroup.com">Daniel</a> for more details.
+						</p>
+					</td>
+				</tr>
+				</table>
+				
 			</p>
 		</div>
 		<!-- End main content section -->
