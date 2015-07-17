@@ -1,0 +1,14 @@
+.FAQdiv {
+	border: 1px solid lightgrey;
+	background-color: white;
+	margin: 5px 0 5px 0;
+}
+
+.FAQdiv > h3{
+	text-align: left;
+	display:inline-block;
+}
+
+.dropDownSign {
+	font-size: 24px;
+}

@@ -1,0 +1,86 @@
+h2 {
+	margin-bottom: 20px;
+}
+
+.sponsorTable > tbody> tr {
+	width: 100%;
+}
+
+.sponsorTable > tbody> tr > td {
+	width: 100%;
+}
+
+.sponsorInfoBlock {
+	display:block;
+	margin: 20px 0 30px 0;
+	text-align: left;
+	vertical-align: text-top;
+
+}
+
+.sponsorImageBlock{
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+
+.sponsorImage {
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 250px;
+	max-height: 250px;
+	
+}
+
+.imageLeft{
+	float: left;
+	margin: 0 20px 0 0;
+	
+}
+
+.imageRight{
+	float: right;
+
+	margin: 0 0 0 20px;
+}
+
+.sponsorDescBlock {
+}
+
+.sponsorName {
+	display: inline;
+	text-align: left;
+	margin: 0 0 10px 0;
+}
+
+.sponsorPosition {
+	float:right;
+	margin: 9px 0 0 0;
+}
+
+.sponsorDesc {
+	display: block;
+}
+
+.sponsorHr {
+	margin: 3px 0 3px 0;
+}
+
+@media (max-width: 992px) {
+	.sponsorPosition {
+	 float: none;
+	}
+}
+
+@media (max-width: 765px) {
+	.sponsorDescBlock {
+		display:block;
+		max-width: 765px;
+		text-align: center;
+	}
+	.sponsorImageBlock{
+		display:block;
+		float: none;
+		margin: 0 auto 0 auto;
+	}
+}
+

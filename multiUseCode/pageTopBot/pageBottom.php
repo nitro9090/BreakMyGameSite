@@ -3,7 +3,7 @@
 		<hr id="footerHr">
 		<div class="row">
 			<div class="col-md-4" id="footerContactUs">
-			<a href="/root/contactUs/contactUs.php">Contact Us</a></div>
+			<a href="contactUs">Contact Us</a></div>
 			<div class="col-md-4">
 				<div id="socialLinks">
 					<div id="facebookButton">
@@ -14,7 +14,7 @@
 					</div>
 					<div id="meetupButton">
 						<a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">
-							<img src="/img/meetup_hgt_35px.jpg" alt="Break My Game Logo">
+							<img src="/img/meetup_hgt_35px.jpg" alt="Meetup Logo">
 						</a>
 					</div>
 				</div>

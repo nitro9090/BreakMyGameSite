@@ -18,9 +18,10 @@
         ?>
         
         <!-- unique CSS for this page -->
-        <link rel="stylesheet" href="calendar.css">
+        <link rel="stylesheet" href="/root/calendar/calendar.css">
     </head>
     <body>
+    	<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -32,11 +33,11 @@
             ?>
             <!-- main content section -->
             <div class="container text-center">
-            	<h2> Calendar</h2>
+            	<h1> Calendar</h1>
             	<p> All of the Break My Game events are listed here.  If you would like to be updated when new events are posted, please join the
             	<a href="http://www.meetup.com/Break-My-Game-Developers-and-Playtesters-Unite/">Meetup Group.</a>  
             	</p>       	
-                <iframe id="calendarGoogle" src="https://www.google.com/calendar/embed?src=747p8vet5mb4o17ehbp3kgvpgs%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+			      <iframe id="calendarGoogle" src="https://www.google.com/calendar/embed?src=747p8vet5mb4o17ehbp3kgvpgs%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 
                 <!--  <iframe id="meetupCalendar" src="http://meetu.ps/2JLcLp" frameborder="0"></iframe>
                 <iframe id="smallMeetupCalendar" src="http://meetu.ps/2JppYr" frameborder="0"></iframe>-->

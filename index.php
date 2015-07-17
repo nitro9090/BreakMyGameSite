@@ -10,7 +10,8 @@
 <!--  meta data for the site -->
 
 <title>Break My Game - Designers and Playtesters Unite!</title>
-<meta name="description" content="Are you a board game designer or love playtesting games in the DC area, then join us at Break My Game.">
+<meta name="description"
+	content="Are you a board game designer or love playtesting games in the DC area, then join us at Break My Game.">
 <meta name="author" content="Michael Lindon">
 
 <!-- This include adds the basic header lines needed to run the basic page -->
@@ -23,6 +24,7 @@
 <link rel="stylesheet" href="/index.css">
 </head>
 <body>
+	<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
 	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -105,33 +107,67 @@
 				local conventions. We are always looking for new playtesters and
 				designers to join in. So, if you have a game you want tested or want
 				to try out new games before they reach publishers come on by!
-				
-				<h3> Mind the Dust</h3>
-				
-				This site is still developing. So if you can't find something, check out the <a
-					href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break
-					My Game - Meetup Page</a>.  If you still can't find what you are
-				looking for contact <a href="mailto:daniel@breakmygamegroup.com">Daniel
-					Palmer</a>, the head of Break of My Game.
-					
-				<h2><u> Upcoming Events</u></h2>
-				<table> 
+			
+			
+			<h3>Mind the Dust</h3>
+
+			This site is still developing. So if you can't find something, check
+			out the <a
+				href="http://www.meetup.com/break-my-game-developers-and-playtesters-unite/">Break
+				My Game - Meetup Page</a>. If you still can't find what you are
+			looking for contact <a href="mailto:daniel@breakmygamegroup.com">Daniel
+				Palmer</a>, the head of Break of My Game.
+
+			<h2>
+				<u> Upcoming Events</u>
+			</h2>
+			<table>
+
 				<tr class="blogBlock">
 					<td>
-						<h3 class="eventHeadline">BMG is going to WashingCon </h3>
-						<h4 class="eventDates"> 9/12/2015 </h4>
+						<h3 class="eventHeadline">BMG Meeting at the Board and Brew</h3>
+						<h4 class="eventDates">7/19/2015</h4>
 						<hr class="eventHr">
 						<p class="eventText">
-						Break My Game is teaming up with Unpub to put on a prototype gaming event.  It is 12 hours of playtesting awesomeness.  Those interested in having their games played should contact <a href="mailto:dan@breakmygamegroup.com">Daniel</a> for more details.
+							This is our regular BMG event at the Board and Brew, all are
+							welcome! If you are designer who wishes to participate, email <a
+								href="mailto:daniel@breakmygamegroup.com">Daniel</a>.
 						</p>
 					</td>
 				</tr>
-				</table>
-				
+				<tr class="blogBlock">
+					<td>
+						<h3 class="eventHeadline">BMG is going to WashingCon</h3>
+						<h4 class="eventDates">9/12/2015</h4>
+						<hr class="eventHr">
+						<p class="eventText">
+							Break My Game is teaming up with Unpub to put on a prototype
+							gaming event. It is 12 hours of playtesting awesomeness. Those
+							interested in having their games played should contact <a
+								href="mailto:dan@breakmygamegroup.com">Daniel</a> for more
+							details.  Note, all designer slots have been filled for this event.
+						</p>
+					</td>
+				</tr>
+			</table>
+
 			</p>
+			
+			<div id="Sponsors">
+				<h2><u>BMG Sponsors</u></h2>
+				<a href="https://www.facebook.com/RavenWarrenStudios">
+				<img src="/img/RavenWarrenLogo-height-200px.png" alt="Raven Warren Studios Logo"></a>
+				<a href="http://www.theboardandbrew.com/">
+				<img src="/img/BoardNBrewLogo-height-200px.jpg" alt="The Board and Brew Logo"></a>
+			</div>
 		</div>
+		
+		
 		<!-- End main content section -->
 	</div>
+	
+	<!-- Google analytics -->
+	<script src="/multiUseCode/js/googleAnalytics.js"></script>
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageBottom.php";
         ?>

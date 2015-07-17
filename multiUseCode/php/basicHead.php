@@ -7,7 +7,9 @@
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		
- 
+		<!-- Load Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		
         <!-- Loading the BootStrap CSS files (do not change unless you know what you are doing) -->
         <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="/multiUseCode/css/bootstrap/bootstrap-theme.min.css">

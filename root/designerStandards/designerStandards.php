@@ -19,9 +19,10 @@
         ?>
         
         <!-- unique CSS for this page -->
-<link rel="stylesheet" href="designerStandards.css">
+<link rel="stylesheet" href="/root/designerStandards/designerStandards.css">
 </head>
 <body>
+<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
 	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -32,9 +33,11 @@
             	include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/pageTopBot/pageTop.php";
             ?>
             <!-- main content section -->
-		<div class="container text-center">
+		<div class="container">
 			<div>
-				<h2 class="h2banner">Designer Standards</h2>
+				<div class= "text-center">
+				<h1 class="h2banner text-center">Designer Standards</h1>
+				</div>
 
 				<p>Break My Game events are created with the designer in mind. We
 					want to not only provide you an opportunity to have your game play
@@ -49,16 +52,18 @@
 					up to make the adjustments needed to be accepted.</p>
 			</div>
 
+			<div class= "text-center">
 			<h3 class="h3banner">Component Requirements</h3>
+			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Game Pieces </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p>Pieces must be actual pieces - no paper tokens or counters.
 						Pieces borrowed from other games are acceptable. Pieces must be
 						distinguishable so that players will be able to tell what they are
@@ -67,14 +72,14 @@
 				</div>
 			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Cards </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p>Cards must be able to be shuffled. Cards on plain paper can be
 						sleeved with card grade backing to accomplish this. Hand drawn
 						cards will be accepted on a case by case basis, however it is
@@ -93,14 +98,14 @@
 				</div>
 			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Game Boards </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p>If you are home printing your board it must be supported by a
 						cardboard backing to give it a board game touch. A game board that
 						is just a piece of paper will not be accepted. This rule also
@@ -118,14 +123,14 @@
 				</div>
 			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Game Mats </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p> Game mats should be protected by plastic to protect it from spills. Methods for doing this:
 						
 						<ul>
@@ -137,14 +142,14 @@
 				</div>
 			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Artwork </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p>Efforts should be made to present a game in a way that is
 						visually appealing in order to attract players. Artwork plays an
 						integral role in this endeavor, however we also understand that it
@@ -157,28 +162,28 @@
 						visually attractive.  See the examples below.</p>
 						
 						<div class="artworkDiv">
-							<img class="artworkImg" src="/img/Designer_Standards/Unacceptable.png" alt="Unacceptable">
+							<img class="artworkImg" src="/img/Designer_Standards/Unacceptable-height-250px.png" alt="Unacceptable">
 							<p> Unacceptable</p>
 						</div>
 						<div class="artworkDiv">
-							<img class="artworkImg" src="/img/Designer_Standards/Passable.png" alt="Passable">
+							<img class="artworkImg" src="/img/Designer_Standards/Passable-height-250px.png" alt="Passable">
 							<p> Passable </p>
 						</div>
 						<div class="artworkDiv">
-							<img class="artworkImg" src="/img/Designer_Standards/Acceptable.png" alt="Acceptable">
+							<img class="artworkImg" src="/img/Designer_Standards/Acceptable-height-250px.png" alt="Acceptable">
 							<p> Acceptable </p>
 						</div>
 				</div>
 			</div>
 
-			<div class="designInfo">
+			<div class="dropDownButton">
 				<table class="designHead">
 					<tr>
 						<td><b> Other Components </b></td>
-						<td class="sign"><b> + </b></td>
+						<td class="dropDownSign"><b> + </b></td>
 					</tr>
 				</table>
-				<div class="designDropDown">
+				<div class="dropDownDiv">
 					<p>There may be types of pieces that have not been covered. In
 						these cases it is up to the event organizer to determine their
 						acceptability. As long as those pieces meet the same standards of
@@ -190,8 +195,10 @@
 			If you need ideas or suggestions on how to make a certain piece or
 			want to verify whether the part meets the standards, ask a fellow
 			designer or an event organizer for assistance.</p>
-
-			<h3 class="h3banner">Conclusion</h3>
+			
+			<div class= "text-center">
+			<h3 class="h3banner text-center">Conclusion</h3>
+			</div>
 
 			<p class="parSpacing">Even if you do not feel your game meets these requirements, we
 				encourage you to present your game for submission anyway. You may be
@@ -252,8 +259,10 @@
         <?php
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>
-        
+    <!-- Dropdown javascript code -->
+    <script src="/multiUseCode/js/dropDownButton.js"></script>   
         <!-- unique javascript for this page -->
+        
 	<script src="/root/designerStandards/designerStandards.js"></script>
 	<!-- end javascript section -->
 </body>

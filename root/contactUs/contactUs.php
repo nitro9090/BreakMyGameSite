@@ -20,9 +20,10 @@
         ?>
         
         <!-- unique CSS for this page EDIT MY LINK! -->
-<link rel="stylesheet" href="contactUs.css">
+<link rel="stylesheet" href="/root/contactUs/contactUs.css">
 </head>
 <body>
+<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
 	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,7 +35,7 @@
             ?>
             <!-- main content section -->
 		<div class="container text-center">
-			<h2>Contact Us</h2>
+			<h1>Contact Us</h1>
 			<p>
 				The best way to discuss ideas and thoughts about Break My Game is to
 				post on our <a

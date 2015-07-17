@@ -1,0 +1,142 @@
+#pageHeader {
+}
+
+.formDiv {
+	margin: 0 auto 0 auto;
+	max-width: 900px;
+	text-align:left;
+}
+
+.inputBlock {
+	margin: 3px 0 3px 0;
+	border: 1px solid #ADD8E6;
+}
+
+.labels {
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 150px;
+}
+
+.inputs {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	left: 0px;
+}
+
+#postersName {
+	width: 400px;
+	height: 1.6em;
+}
+
+#newsHeadline {
+	width: 400px;
+	height: 1.6em;
+}
+
+#newsContent {
+	width: 100%;
+	height: 400px;
+}
+
+#newPostDiv, #submitButtonDiv {
+	text-align: left;
+	display: inline-block;
+}
+
+.checkValid {
+	height: 1em;
+	width: 1em;
+}
+
+.bigTextArea {
+	width: 500px;
+	height: 6em;
+	vertical-align: middle;
+}
+
+.smallTextArea {
+	width: 300px;
+	height: 4em;
+	vertical-align: middle;
+}
+
+@media(max-width:768px){
+	.bigTextArea {
+	width: 300px;
+	height: 5em;
+	vertical-align: middle;
+	}
+	
+	.bigTextArea {
+	width: 250px;
+	height: 4em;
+	vertical-align: middle;
+	}
+}
+
+@media(max-width:550px){
+	.bigTextArea {
+	width: 300px;
+	height: 5em;
+	vertical-align: middle;
+	}
+	
+	.bigTextArea {
+	width: 250px;
+	height: 4em;
+	vertical-align: middle;
+	}
+}
+
+/* CSS for listing the old news*/
+.dropDownButton {
+	text-align: left;
+	vertical-align: text-top;
+	border: 2px solid lightgray;
+}
+
+.oldNewsActive{
+}
+
+.oldNewsInactive {
+	color: gray;
+}
+
+.oldNewsHeadline {
+	display:inline-block;
+	text-align: left;
+	width: 50%;
+	margin: 2px 0 2px 0;
+}
+
+.oldPoster {
+	display: inline-block;
+	width: 23.5%;
+	margin: 2px 0 2px 0;
+}
+
+.oldNewsDate {
+	display: inline-block;
+	text-align: right;
+	width: 23.5%;
+	margin: 2px 0 2px 0;
+}
+
+.dropDownSign {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	width: 1%;
+}
+
+.oldNewsText {
+	
+}
+
+.oldPostId, .oldPostActive {
+	display: none;
+}

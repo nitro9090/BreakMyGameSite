@@ -20,9 +20,10 @@
         ?>
         
         <!-- unique CSS for this page -->
-<link rel="stylesheet" href="theLeadership.css">
+<link rel="stylesheet" href="/root/theLeadership/theLeadership.css">
 </head>
 <body>
+	<?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
 	<!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,7 +35,7 @@
             ?>
             <!-- main content section -->
 		<div class="container text-center">
-			<h2>The Leadership</h2>
+			<h1>The Leadership</h1>
 
 			<table class="leaderTable">
 				<tr class="leaderInfoBlock">

@@ -1,7 +1,31 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# removes www from site requests, then forces a page reload
+RewriteCond %{HTTP_HOST} ^www\.breakmygamegroup.com$ [NC] 
+RewriteRule ^(.*)$ http://breakmygamegroup.com/$1 [R=301,L]
+
+# redirects pretty urls to their appropriate target page
+RewriteRule ^(\w+)/?$ /root/$1/$1.php
+RewriteRule ^(\w+)/(\w+)/?$ /root/$1/$2/$2.php
+RewriteRule ^(\w+)/~(\w+)/?([\w=&+])?/?$ /root/$1/$2.php?$3
+RewriteRule ^(\w+)/(\w+)/~(\w+)/?([\w=&+])?/?$ /root/$1/$2/$3.php?$4
+
+
+# prevents users from calling php files directly
+RewriteCond %{THE_REQUEST} (.*?)\.php
+RewriteRule (.*?)\.php - [F]
+
+# prevents hotlinking to the site (replace http://example\.com with a site, following regex policy to add a site)
+RewriteCond %{HTTP_REFERER} !^/?.*$ [NC]
+RewriteRule \.(gif|jpe?g|png|bmp)$ - [F,NC]
+
+</IfModule>
 
 # 1 ----- custom 404 File Not Found page ----- 1 #
 
-ErrorDocument 404 /root/404error/404.php
+ErrorDocument 404 /404error
+ErrorDocument 403 /403error
 
 # 2 ---- Prevent directory file listng ---- 2 #
 

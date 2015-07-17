@@ -18,9 +18,10 @@
             include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicHead.php";
         ?>
         
-        <link rel="stylesheet" href="howToSponsor.css">
+        <link rel="stylesheet" href="/root/howToSponsor/howToSponsor.css">
     </head>
     <body>
+    <?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -32,9 +33,9 @@
             ?>
             <!-- main content section -->
             <div class="container text-center" >
-                <h2>Sponsoring Break MY Game</h2>
+                <h1>Sponsoring Break My Game</h1>
                 
-                <p> Interested in sponsoring Break My Game?  Send an email to <a href="mailto:daniel@breakmygamegroup.com"> Daniel </a>.
+                <p> Interested in sponsoring Break My Game?  Send an email to <a href="mailto:daniel@breakmygamegroup.com">Daniel</a>.
             </div>
             <!-- End main content section -->
         </div>

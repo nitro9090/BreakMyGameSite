@@ -19,9 +19,11 @@
         ?>
         
         <!-- unique CSS for this page EDIT MY LINK! -->
-        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="/root/template/template.css">
     </head>
     <body>
+    <!-- Uncomment if the page needs should be included in google analytics -->
+    <!-- <?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?> -->
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -49,6 +51,8 @@
 			include_once $_SERVER['DOCUMENT_ROOT'] . "/multiUseCode/php/basicJs.php";
         ?>
         
+        <!-- uncomment to include javascript dropDownButtons -->
+        <!-- <script src="/multiUseCode/js/dropDownButton.js"></script> -->
         <!-- unique javascript for this page EDIT MY LINK! --> 
         <script src="/root/template/template.js"></script>
         <!-- end javascript section -->

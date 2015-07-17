@@ -1,0 +1,10 @@
+.textLeft{
+	text-align: left;
+}
+
+.orderedList > li {
+	width: 100%;
+	border: 1px solid lightgrey;
+	background: white;
+	margin: 5px 0 5px 0;
+}

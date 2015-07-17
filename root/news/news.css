@@ -1,0 +1,41 @@
+.newsTable {
+	width: 100%;
+}
+
+.newsBlock {
+	width: 100%;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+.newsHeadline {
+	display:block;
+	margin: 20px 0 5px 0;
+}
+
+.poster {
+	display: inline;
+	text-align: left;
+	margin: 0 0 10px 0;
+	color: gray;
+}
+
+.newsDate {
+	float:right;
+	margin: 3px 0 0 0;
+	color: gray;
+}
+
+.newsHr {
+	margin: 3px 0 3px 0;
+}
+
+.newsText {
+	
+}
+
+@media (max-width: 992px) {
+	.newsDate {
+	 	float: none;
+	}
+}

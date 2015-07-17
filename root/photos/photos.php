@@ -18,9 +18,10 @@
         ?>
         
         <!-- unique CSS for this page -->
-        <link rel="stylesheet" href="photos.css">
+        <link rel="stylesheet" href="/root/photos/photos.css">
     </head>
     <body>
+    <?php include_once $_SERVER ['DOCUMENT_ROOT'] . "/multiUseCode/php/googleAnalytics.php" ?>
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
